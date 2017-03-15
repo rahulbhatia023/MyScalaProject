@@ -14,7 +14,6 @@ object Closures extends App {
   val list = List(1, 2, 3, 4, 5)
 
   var sum = 0
-
   list.foreach(sum += _)
   println(sum)
 }
