@@ -8,6 +8,7 @@ object Closures extends App {
   println(functionLiteral1(20))
 
   more = 20
+  
   println(functionLiteral1(20))
 
   val list = List(1, 2, 3, 4, 5)
@@ -15,6 +16,5 @@ object Closures extends App {
   var sum = 0
 
   list.foreach(sum += _)
-
   println(sum)
 }
