@@ -16,6 +16,5 @@ object Closures extends App {
   var sum = 0
 
   list.foreach(sum += _)
-
   println(sum)
 }
