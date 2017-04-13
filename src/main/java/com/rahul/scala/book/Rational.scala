@@ -16,7 +16,7 @@ class Rational(n: Int, d: Int) {
   override def toString: String = numerator + "/" + denominator
 }
 
-object Rational {
+object yRational {
   def main(args: Array[String]): Unit = {
     val rationalNumber = new Rational(1, 2)
     val newRationalNumber = rationalNumber.add(new Rational(3, 4))
