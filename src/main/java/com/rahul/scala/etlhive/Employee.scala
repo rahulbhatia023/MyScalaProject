@@ -1,6 +1,8 @@
+package com.rahul.scala.etlhive
+
 object Employee extends App {
   println("Enter the name of employee: ")
-  val employeeName = scala.io.StdIn.readLine();
+  val employeeName = scala.io.StdIn.readLine()
 
   println("Enter the current salary of employee: ")
   val currentSalary = scala.io.StdIn.readDouble()
@@ -16,6 +18,6 @@ class CalculateSalary {
     else if (currentSalary >= 5001 && currentSalary <= 10000) incrementPercent = 7
     else incrementPercent = -5
 
-    return (currentSalary + (currentSalary * (incrementPercent / 100)))
+    currentSalary + (currentSalary * (incrementPercent / 100))
   }
 }
