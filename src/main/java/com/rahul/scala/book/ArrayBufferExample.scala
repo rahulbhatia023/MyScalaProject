@@ -10,7 +10,9 @@ object ArrayBufferExample extends App {
   arrayBuffer += 4
   arrayBuffer += 5
 
-  (arrayBuffer.toArray).foreach {
+  arrayBuffer.toArray.foreach {
     println
   }
+
+  println("ArrayBuffer Elements: " + arrayBuffer)
 }
